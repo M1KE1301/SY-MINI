@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <style>
+      .header{      
+      background-color: black;
+      padding: 20px;
+      text-align:right;
+      }
+      * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+.main-img{
+        width: 100vw;
+        height: 93.4vh;
+        /* position: relative; */
+    
+}
+    
+    .header {
+    
+      background-color: black;
+      padding: 20px;
+      text-align:right;
+     
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .header a {
+        
+        color: white;
+      text-decoration: none;
+
+      margin: 0 20px;
+    }
+  .outer{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: calc(22vh - 10rem);
+  }
+  .contact-box{
+  display: inline-block ;
+  width: 50rem;
+  background-color: rgb(116, 182, 212);
+  
+  }
+  form {
+  margin: 3.5rem;
+}
+::placeholder {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.input-field {
+    width: 580px;
+    height: 47px;
+    margin-top: 2rem;
+    padding-left: 16px;
+    border: .1rem solid #777;
+    border-radius: 23px;
+    outline: none;
+}
+
+.textarea-field {
+  height: 15rem;
+  padding-top: 1rem;
+  resize: none;
+}
+.btn {
+    border-radius: 16px;
+    color: #fff;
+    margin-top: 80.6px;
+    margin-bottom: 32px;
+    padding: 16px;
+    background-color: #6b6b6b;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+h1 {
+  margin: 48px;
+  color: #ffffff;
+}
+
+header {
+  background-color: #b5cda3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+form{
+    margin: 8px;
+}
+button {
+  padding: .8rem 2.5rem;
+  background: transparent;
+  outline: none;
+  border: .3rem solid #053742;
+  border-radius: 2rem;
+  color: #171717;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+textarea {
+    text-rendering: auto;
+    resize: none;
+}
+.footer
+{
+  background-color: black;
+  text-align: center;
+  color: white;
+
+  width: 100vw;
+}
+footer{
+  display: flex;
+
+}
+.footer-p{
+margin-top: 130px;
+
+}
+  </style>
+<body style="background-color:black;">
+
+    <div class="header">
+        <a href="./Index.html">Home </a>
+        <a href="./about.html" target="_blank">About Us</a>
+        </div>    
+        <div class="outer">
+        <h1>Contact us</h1>
+      <div class="contact-box">
+        <form action="#">
+          <input type="text" class="input-field" placeholder="Name" />
+          <input type="email" class="input-field" placeholder="Email" />
+          <input type="text" class="input-field" placeholder="Subject" />
+          <textarea
+            type="text"
+            class="input-field textarea-field"
+            placeholder="Message" 
+            style="margin: 32px 0px 0px; height: 160px; width: 591px;"
+          ></textarea>
+          <button type="button" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <div class="footer">
+    <p class="footer-p">
+    <strong>©  <i>Created by Aman Mahale 2021</i></strong>
+  </p></div>
+  
+  </footer>
+  </html>
